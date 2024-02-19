@@ -26,7 +26,7 @@ which elements to scrape.
   - Print the list in your notebook.
 
 4. Optionally, store the scraped data in a  le (to ease sharing the data with others). To do so, export the scraped data to a JSON  file.
-  ** Answer: file save as mars_new.json**
+  **Answer: file save as mars_new.json**
 
 **Part 2: Scrape and Analyse Mars Weather Data**
 1. Use automated browsing to visit the Mars Temperature Data Site  (https://static.bc-edx.com/data/web/mars_facts/temperature.html) . Inspect the
@@ -46,22 +46,22 @@ explanation of the column headings:
 int , or  float  data types.
 5. Analyse your dataset by using Pandas functions to answer the following questions:
   - How many months exist on Mars?
-   ** Answer: 12 months**
+   **Answer: 12 months**
   - How many Martian (and not Earth) days worth of data exist in the scraped dataset?
-   ** Answer: 1,867 days**
+   **Answer: 1,867 days**
   - What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
     * Find the average minimum daily temperature for all of the months.
     * Plot the results as a bar chart.
-**    Answer: Coldest month: 3
+   **Answer: Coldest month: 3
             Warmest month: 8**
   - Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
     * Find the average daily atmospheric pressure of all the months.
     * Plot the results as a bar chart.
-**    Answer: Lowest: 6
+   **Answer: Lowest: 6
             Highest: 9**
   - About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
     * Consider how many days elapse on Earth in the time that Mars circles the Sun once.
     * Visually estimate the result by plotting the daily minimum temperature.
-**    Answer: 675 days**
+   **Answer: 675 days**
  . Export the DataFrame to a CSV  file.
-**   Answer: file save as mars_weather_data.csv**
+   **Answer: file save as mars_weather_data.csv**
